@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "milestone"
+title: "experience"
 description: "The pursuit of truth is more valuable than to own it. "
 header-img: "img/zhihu.jpg"
 ---
