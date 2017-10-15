@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "学苟知本，六经皆我注脚 "
+description: "Try not to become a man of success but rather try to become a man of value. "
 header-img: "img/green.jpg"
 ---
 
