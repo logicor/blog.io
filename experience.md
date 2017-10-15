@@ -4,90 +4,30 @@ title: "experience"
 description: "The pursuit of truth is more valuable than to own it. "
 header-img: "img/zhihu.jpg"
 ---
-<pre><code>
-<div id="work" class="work">
-		<div class="container">
-			<div class="service-head text-center">
-						<h4>WHAT I DID</h4>
-						<h3>MY <span>EXPERIENCE</span></h3>
-						<span class="border one"></span>
-					</div>
-					<div class="time-main w3l-agile">
-							<div class="col-md-6 year-info">
-							   <ul class="year">
-								   <li>2016</li>
-								   <li>2015</li>
-								   <li>2014</li>
-								   <li>2013</li>
-								   <li>2012</li>
-								   <div class="clearfix"></div>
-								</ul>
-							</div> 
-					                        <ul class="col-md-6 timeline">
-																<li>
-																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-																  <div class="timeline-panel">
-																	<div class="timeline-heading">
-																	  <h4 class="timeline-title">COMPANY NAME</h4>
-																	</div>
-																	<div class="timeline-body">
-																	  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
-																	</div>
-																  </div>
-																</li>
-																
-																<li>
-																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-																  <div class="timeline-panel">
-																	<div class="timeline-heading">
-																	  <h4 class="timeline-title">COMPANY NAME</h4>
-																	</div>
-																	<div class="timeline-body">
-																	  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
-																	</div>
-																  </div>
-																</li>
-																
-																
-																
-																<li>
-																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
-																  <div class="timeline-panel">
-																	<div class="timeline-heading">
-																	  <h4 class="timeline-title">COMPANY NAME</h4>
-																	</div>
-																	<div class="timeline-body">
-																	  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
-																	</div>
-																  </div>
-																</li>
-																
-																<li>
-																  <div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
-																  <div class="timeline-panel">
-																	<div class="timeline-heading">
-																	  <h4 class="timeline-title">COMPANY NAME</h4>
-																	</div>
-																	<div class="timeline-body">
-																	  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
-																	</div>
-																  </div>
-																</li>
-																<li>
-																  <div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
-																  <div class="timeline-panel">
-																	<div class="timeline-heading">
-																	  <h4 class="timeline-title">COMPANY NAME</h4>
-																	</div>
-																	<div class="timeline-body">
-																	  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
-																	</div>
-																  </div>
-																</li>
-															</ul>
-								<div class="clearfix"></div>
-								</div>
-						</div>
-				</div>
-	<!--//work-experience-->
-</code></pre>
+
+##Research Experience
+
+###Identification Research based on DHV(Dorsal Hand Vein) (NSFC61271368)
+- Identification Research based on DHV(Dorsal Hand Vein) (NSFC61271368) Research Assistant with professor Yiding Wang                   Beijing
+- Biometric image pattern recognition research, concentrating on processing image data to gain robust feature for identification.
+- Developed a method for synthesizing virtual DHV example based on PCA to construct very large DHV databases.
+- Built a DHV sample collection system with an infrared camera and a computer as well as collected a student DHV database.
+- Individually wrote a DHV recognition program respectively using LBP and SIFT which had a good performance both in real and virtual DHV database.
+
+###Third generation momentum spectrometer project 
+- Research Assistant assisted with professor Zhongfeng Xu                  Xi’an
+- Installation of experimental instruments and systematic study of particle physics
+
+##Working Experience
+
+###Algorithm Engineer
+Sinomvtech ,Beijing
+Designed and developed an image processing program for checking defects from Banknote pictures using C++.
+
+###Algorithm Engineer                              
+Tsinghuabigdata, Chengdu
+-Optimized algorithm for handwritten recognition of letters or numbers and improved software efficiency.
+
+
+
+
