@@ -5,6 +5,6 @@ description: ""
 header-img: "img/semantic.jpg"  
 ---
 
-##E-mail
+#E-mail
 
 logicor@stu.xjtu.edu.cn
