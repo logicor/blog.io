@@ -5,8 +5,7 @@ description: "Try not to become a man of success but rather try to become a man 
 header-img: "img/green.jpg"
 ---
 
-<font size = 20 px>
-I am Jiangnan self introduction
+Hi, I am NanJ. As a Bachelor of physics at Xi'an Jiaotong University, I received a particularly well-rounded mathematics and computing education. My interest in computer science field began while I was in college. I tried to teach myself programming, and then won the first prize when I participated in the school mathematical modeling contest. Then I went to North China University of Technology for a master’s degree in Signal and Information Processing. I was first introduced to machine learning and solved an identification problem by using CNN. The fascination of machine learning makes me want to do some deeper research.
 
 
 ##Education
