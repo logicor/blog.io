@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "experience"
+title: "Experience"
 description: "The pursuit of truth is more valuable than to own it. "
 header-img: "img/zhihu.jpg"
 ---
@@ -8,7 +8,9 @@ header-img: "img/zhihu.jpg"
 # Honors
 
 -Graduate National Scholarship（2%）
+
 -NCUT Excellent MA Thesis（5%）
+
 -First prize in XJTU Mathematical Modeling Contest 
 
 
