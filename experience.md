@@ -4,7 +4,6 @@ title: "experience"
 description: "The pursuit of truth is more valuable than to own it. "
 header-img: "img/zhihu.jpg"
 ---
-<font size = 5>
 
 ##Honors
 
@@ -37,7 +36,6 @@ header-img: "img/zhihu.jpg"
 [Tsinghuabigdata, Chengdu](http://www.tsinghuabigdata.com/)
 
 -Optimized algorithm for handwritten recognition of letters or numbers and improved software efficiency.
-</font>
 
 
 
