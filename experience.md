@@ -4,7 +4,7 @@ title: "experience"
 description: "The pursuit of truth is more valuable than to own it. "
 header-img: "img/zhihu.jpg"
 ---
-<font size = 20 px>
+<font size = 5>
 
 ##Honors
 
