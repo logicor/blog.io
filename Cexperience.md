@@ -7,11 +7,11 @@ header-img: "img/zhihu.jpg"
 
 # Honors
 
--Graduate National Scholarship（2%）
+- Graduate National Scholarship（2%）
 
--NCUT Excellent MA Thesis（5%）
+- NCUT Excellent MA Thesis（5%）
 
--First prize in XJTU Mathematical Modeling Contest 
+- First prize in XJTU Mathematical Modeling Contest 
 
 
 # Research Experience

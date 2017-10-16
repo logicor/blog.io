@@ -38,7 +38,7 @@ Hi, I am NanJ. As a Bachelor of physics at Xi'an Jiaotong University, I received
  [Journal of Computer Research and Development](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2014&filename=JFYZ201410020&v=MjEzNzJyNDlIWklSOGVYMUx1eFlTN0RoMVQzcVRyV00xRnJDVVJMMmVaK2RwRmlEZ1ZyclBMeXZTZExHNEg5WE4=)
 
 - Master Thesis 
-- [Study on the capacity and separability of dorsal hand vein images](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CMFD&dbname=CMFD201402&filename=1014245347.nh&v=MjAwNDhHOUxJcUpFYlBJUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTDJlWitkcEZpRGdXcjNKVkYyNkdyRzg=)
+  [Study on the capacity and separability of dorsal hand vein images](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CMFD&dbname=CMFD201402&filename=1014245347.nh&v=MjAwNDhHOUxJcUpFYlBJUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTDJlWitkcEZpRGdXcjNKVkYyNkdyRzg=)
 
 
 
