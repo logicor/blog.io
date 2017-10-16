@@ -15,7 +15,7 @@ Hi, I am NanJ. As a Bachelor of physics at Xi'an Jiaotong University, I received
 - PhD of Physics
 - Direction : Electron-impact Molecule Experiment
 - Dropout for personal reason.
-- (I have to say it was a hard choice. Professor Xu invited me to his team after I contacted him. But when I got in touch with foreign scholars  and investigated the status of foreign research. I decided to go abroad and know more. Thanks to Professor Xu for his understanding.)
+- (I have to say it was a hard choice. Professor Xu invited me to his team after I contacted him. But when I got in touch with foreign scholars  and investigated the status of foreign research. I decided to go abroad and wanted to break through myself in scientific research. Thanks to Professor Xu for his understanding.)
 
  
 
