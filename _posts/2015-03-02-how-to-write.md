@@ -1,13 +1,16 @@
 ---
 layout: post
-title: 如何正确地练习写作
-date: 2015-3-02
+title:  From the very beginning 
+date: 2017-10-01
 categories: blog
-tags: [总结,知识管理]
-description: TRY。
+tags: [conclution]
+description: The purpose of blogging
 ---
 
-##初心
+##From the very beginning
+
+ As I get older, I think it's necessary to write something to record my life and study.
+ I want to share what I see and what I learn online. I plan to weekly update.
 
 
 
