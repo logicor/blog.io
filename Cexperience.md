@@ -32,12 +32,12 @@ header-img: "img/zhihu.jpg"
 ## Algorithm Engineer
 [Sinomvtech ,Beijing](http://www.sinomvtech.com/)
 
--Designed and developed an image processing program for checking defects from Banknote pictures using C++.
+- Designed and developed an image processing program for checking defects from Banknote pictures using C++.
 
 ## Algorithm Engineer                              
 [Tsinghuabigdata, Chengdu](http://www.tsinghuabigdata.com/)
 
--Optimized algorithm for handwritten recognition of letters or numbers and improved software efficiency.
+- Optimized algorithm for handwritten recognition of letters or numbers and improved software efficiency.
 
 
 
