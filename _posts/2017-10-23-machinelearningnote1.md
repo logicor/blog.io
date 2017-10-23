@@ -7,14 +7,14 @@ tags: [note]
 description: Machine Learning
 ---
 
-##Linear Model
+#Linear Model
 
 Generally speaking, the linear model can be expressed by the equation as follow.
 <img src="http://www.forkosh.com/mathtex.cgi? f(\overrightarrow{x})=\overrightarrow{w}\cdot \overrightarrow{x}+b">
 In the formula, *w* corresponds to the weight of each vector.
 
 
-###Multivariate Linear Regression
+##Multivariate Linear Regression
 
 Regression analysis is essentially a function estimation problem.
 Given <img src="http://www.forkosh.com/mathtex.cgi? \overrightarrow{x_{i}}">,
@@ -33,11 +33,12 @@ In order to valuate prediction performance, the performance score is as follow:
 <img src="score=1-\frac{\sum (y_{i}-\widetilde{y}_{i})^{2}}{(y_{i}-\overline{y})^{2}}">
 
 
-###Example:
+##Example:
 
 (I used data set from the scikit-learn tool.)
 
 codes:
+
 `import numpy as np
 from sklearn import datasets, linear_model,cross_validation
 `
@@ -56,10 +57,13 @@ from sklearn import datasets, linear_model,cross_validation
 `x_train,x_test,y_train,y_test=load_data()
 test_LinearRegression(x_train,x_test,y_train,y_test)
 `
+
 The results are as follows:
+
 `coefficients:[ -43.26774487 -208.67053951  593.39797213  302.89814903 -560.27689824
   261.47657106   -8.83343952  135.93715156  703.22658427   28.34844354], intercept 153.07
 Residual sum of squares: 3180.20
 score : 0.36`
 
-The score is just 0.36, because it is a traditional algorithm.
+The score is just 0.36, because it is a traditional algorithm. It is not a effective algorithm.
+
