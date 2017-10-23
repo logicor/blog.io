@@ -7,14 +7,14 @@ tags: [note]
 description: Machine Learning
 ---
 
-#Linear Model
+# Linear Model
 
 Generally speaking, the linear model can be expressed by the equation as follow.
 <img src="http://www.forkosh.com/mathtex.cgi? f(\overrightarrow{x})=\overrightarrow{w}\cdot \overrightarrow{x}+b">
 In the formula, *w* corresponds to the weight of each vector.
 
 
-##Multivariate Linear Regression
+## Multivariate Linear Regression
 
 Regression analysis is essentially a function estimation problem.
 Given <img src="http://www.forkosh.com/mathtex.cgi? \overrightarrow{x_{i}}">,
@@ -33,7 +33,7 @@ In order to valuate prediction performance, the performance score is as follow:
 <img src="score=1-\frac{\sum (y_{i}-\widetilde{y}_{i})^{2}}{(y_{i}-\overline{y})^{2}}">
 
 
-##Example:
+## Example:
 
 (I used data set from the scikit-learn tool.)
 
