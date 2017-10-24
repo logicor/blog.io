@@ -18,6 +18,7 @@ As to Multivariate Linear Regression, Regularization is introduced to minimize t
 <img src="http://www.forkosh.com/mathtex.cgi? \widehat{L} = L + \alpha \left \| \overrightarrow{w} \right \|_{2}^{2},\alpha \geq 0">
 
 Function code:
+
 `def test_Ridge(*data):
 	x_train,x_test,y_train,y_test = data
 	regr = linear_model.Ridge()
