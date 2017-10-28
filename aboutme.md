@@ -7,7 +7,7 @@ header-img: "img/green.jpg"
 
 ![me](http://oybqmhgid.bkt.clouddn.com/me.jpg)
 
-Hi, I am NanJ. As a Bachelor of physics at Xi'an Jiaotong University, I received a particularly well-rounded mathematics and computing education. My interest in computer science field began while I was in college. I tried to teach myself programming, and then won the first prize when I participated in the school mathematical modeling contest. Then I went to North China University of Technology for a master’s degree in Signal and Information Processing.After the master’s education, I worked for one year and later applied for the PhD study at Xian Jiaotong University. But I finally found out that I was still fascinated with the research of computer science, for which I quit the PhD study and turned to my research interest. 
+Hi, I am NanJ. As a Bachelor of physics at Xi'an Jiaotong University, I received a particularly well-rounded mathematics and computing education. My interest in computer science field began while I was in college. I tried to teach myself programming, and then won the first prize when I participated in the school mathematical modeling contest. Then I went to North China University of Technology for a master’s degree in Signal and Information Processing.After the master’s education, I worked for one year and later applied for the PhD study at Xian Jiaotong University. But I finally found out that I was still fascinated with the research of computer science, for which I quit the PhD study and turned to my research interest. My research interests are machine learning, data analysis and statistics.
 
 # Education
 
