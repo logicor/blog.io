@@ -28,7 +28,9 @@ But the function is non-derivable, we use logisitic function instead of that.
 
 Here:
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= p(y=1/\overrightarrow{\widetilde{x}})=\pi (\overrightarrow{\widetilde{x}})" style="border:none;">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+	$$p(y=1/\overrightarrow{\widetilde{x}})=\pi (\overrightarrow{\widetilde{x}})$$
+</script>
 
 Likelihood function is :
 
