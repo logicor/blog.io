@@ -27,7 +27,7 @@ This function needs to be minimized by using the method of Partial Least-Square 
 I can get :
 <img src="http://www.forkosh.com/mathtex.cgi? \overrightarrow{\widetilde{w}}^{\ast }=argmin(\overrightarrow{y}-\overrightarrow{x}\overrightarrow{\widetilde{w}})^{T}(\overrightarrow{y}-\overrightarrow{x}\overrightarrow{\widetilde{w}})">
 Then differentiate:
-<img src="http://www.forkosh.com/mathtex.cgi? \frac{\partial E_{\overrightarrow{\widetilde{w}}}}{\partial \overrightarrow{\widetilde{w}}}=2\overrightarrow{x}^{T}(\overrightarrow{x}\cdot \overrightarrow{\widetilde{w}}-\overrightarrow{y})=\overrightarrow{0})">
+<img src="http://www.forkosh.com/mathtex.cgi? \frac{\partialE_{\overrightarrow{\widetilde{w}}}}{\partial\overrightarrow{\widetilde{w}}}=2\overrightarrow{x}^{T}(\overrightarrow{x}\cdot\overrightarrow{\widetilde{w}}-\overrightarrow{y})=\overrightarrow{0})">
 Then *w* can be calculated
 In order to valuate prediction performance, the performance score is as follow:
 <img src="score=1-\frac{\sum (y_{i}-\widetilde{y}_{i})^{2}}{(y_{i}-\overline{y})^{2}}">
