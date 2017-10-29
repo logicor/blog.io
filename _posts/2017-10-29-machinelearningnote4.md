@@ -15,26 +15,25 @@ description: Machine Learning
 
 The generalized linear model is adopted. The best choice is unit step function：
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= http://www.forkosh.com/mathtex.cgi? P(y=1/\overrightarrow{x})=\left\{\begin{matrix}
+
+<img src="http://www.forkosh.com/mathtex.cgi? P(y=1/\overrightarrow{x})=\left\{\begin{matrix}
 0, &z<0  & \\ 
 0.5, &z=0  &,z=\overrightarrow{w}\cdot \overrightarrow{x}+b \\ 
 1, &z>0  & 
-\end{matrix}\right." style="border:none;">
-
+\end{matrix}\right">
 
 But the function is non-derivable, we use logisitic function instead of that.
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= p(y=1/\overrightarrow{x})=\frac{1}{1-e^{-z}},z=\overrightarrow{w}\cdot \overrightarrow{x}+b" style="border:none;">
+<img src="http://www.forkosh.com/mathtex.cgi? p(y=1/\overrightarrow{x})=\frac{1}{1-e^{-z}},z=\overrightarrow{w}\cdot \overrightarrow{x}+b">
 
 Here:
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
-	$$p(y=1/\overrightarrow{\widetilde{x}})=\pi (\overrightarrow{\widetilde{x}})$$
-</script>
+<img src="http://www.forkosh.com/mathtex.cgi? p(y=1/\overrightarrow{\widetilde{x}})=\pi (\overrightarrow{\widetilde{x}})">
 
 Likelihood function is :
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= L(\overrightarrow{\widetilde{w}})=\sum_{i=1}^{N}[y_{i}log\frac{\pi (\overrightarrow{\widetilde{x_{i}}})}{1-\pi (\overrightarrow{\widetilde{x_{i}}})}+log(1-\pi (\overrightarrow{\widetilde{x_{i}}}))]=\sum_{i=1}^{N}[y_{i}(\overrightarrow{\widetilde{w}}\cdot \overrightarrow{\widetilde{x_{i}}})-log(1+exp(\overrightarrow{\widetilde{w}}\cdot \overrightarrow{\widetilde{x_{i}}})]" style="border:none;">
+<img src="http://www.forkosh.com/mathtex.cgi? L(\overrightarrow{\widetilde{w}})=\sum_{i=1}^{N}[y_{i}log\frac{\pi (\overrightarrow{\widetilde{x_{i}}})}{1-\pi (\overrightarrow{\widetilde{x_{i}}})}+log(1-\pi (\overrightarrow{\widetilde{x_{i}}}))]=\sum_{i=1}^{N}[y_{i}(\overrightarrow{\widetilde{w}}\cdot \overrightarrow{\widetilde{x_{i}}})-log(1+exp(\overrightarrow{\widetilde{w}}\cdot \overrightarrow{\widetilde{x_{i}}})]">
+
 
  The parameters are estimated by seeking extreme values of the function.
 
@@ -103,12 +102,11 @@ Linear discriminant analysis (LDA) is a generalization of Fisher's linear discri
 
 In order to minimize the distance between similar classes and maximize the distance betweenm different classes, the main idao of LDA can be explain as：
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= J=\frac{\left \| \overrightarrow{w}^{T}\overrightarrow{\mu _{0}}-\overrightarrow{w}^{T}\overrightarrow{\mu _{1}} \right \|_{2}^{2}}{\overrightarrow{w}^{T}\sum _{0}\overrightarrow{w}+\overrightarrow{w}^{T}\sum _{1}\overrightarrow{w}}" style="border:none;">
+<img src="http://www.forkosh.com/mathtex.cgi? J=\frac{\left \| \overrightarrow{w}^{T}\overrightarrow{\mu _{0}}-\overrightarrow{w}^{T}\overrightarrow{\mu _{1}} \right \|_{2}^{2}}{\overrightarrow{w}^{T}\sum _{0}\overrightarrow{w}+\overrightarrow{w}^{T}\sum _{1}\overrightarrow{w}}">
 
 Define within-class and between-class scatter matrix:
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= J=\frac{\overrightarrow{w}^{T}S_{b}\overrightarrow{w}}{\overrightarrow{w}^{T}S_{w}\overrightarrow{w}}" style="border:none;">
-
+<img src="http://www.forkosh.com/mathtex.cgi? J=\frac{\overrightarrow{w}^{T}S_{b}\overrightarrow{w}}{\overrightarrow{w}^{T}S_{w}\overrightarrow{w}}">
 
 Obtaining the optimized result as modifying and optimizing J, it is with simple, quick and convenient advantages.
 
