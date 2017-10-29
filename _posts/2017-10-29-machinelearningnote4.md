@@ -16,11 +16,7 @@ description: Machine Learning
 The generalized linear model is adopted. The best choice is unit step function：
 
 
-<img src="http://www.forkosh.com/mathtex.cgi? P(y=1/\overrightarrow{x})=\left\{\begin{matrix}
-0, &z<0  & \\ 
-0.5, &z=0  &,z=\overrightarrow{w}\cdot \overrightarrow{x}+b \\ 
-1, &z>0  & 
-\end{matrix}\right">
+<img src="http://www.forkosh.com/mathtex.cgi? P(y=1/\overrightarrow{x})=\left\{\begin{matrix}0, &z<0  & \\0.5, &z=0  &,z=\overrightarrow{w}\cdot \overrightarrow{x}+b \\1, &z>0  &\end{matrix}\right">
 
 But the function is non-derivable, we use logisitic function instead of that.
 
@@ -32,7 +28,7 @@ Here:
 
 Likelihood function is :
 
-<img src="http://www.forkosh.com/mathtex.cgi? L(\overrightarrow{\widetilde{w}})=\sum_{i=1}^{N}[y_{i}log\frac{\pi (\overrightarrow{\widetilde{x_{i}}})}{1-\pi (\overrightarrow{\widetilde{x_{i}}})}+log(1-\pi (\overrightarrow{\widetilde{x_{i}}}))]=\sum_{i=1}^{N}[y_{i}(\overrightarrow{\widetilde{w}}\cdot \overrightarrow{\widetilde{x_{i}}})-log(1+exp(\overrightarrow{\widetilde{w}}\cdot \overrightarrow{\widetilde{x_{i}}})]">
+<img src="http://www.forkosh.com/mathtex.cgi? L(\overrightarrow{\widetilde{w}})=\sum_{i=1}^{N}[y_{i}log\frac{\pi(\overrightarrow{\widetilde{x_{i}}})}{1-\pi(\overrightarrow{\widetilde{x_{i}}})}+log(1-\pi(\overrightarrow{\widetilde{x_{i}}}))]=\sum_{i=1}^{N}[y_{i}(\overrightarrow{\widetilde{w}}\cdot\overrightarrow{\widetilde{x_{i}}})-log(1+exp(\overrightarrow{\widetilde{w}}\cdot\overrightarrow{\widetilde{x_{i}}})]">
 
 
  The parameters are estimated by seeking extreme values of the function.
@@ -102,7 +98,7 @@ Linear discriminant analysis (LDA) is a generalization of Fisher's linear discri
 
 In order to minimize the distance between similar classes and maximize the distance betweenm different classes, the main idao of LDA can be explain as：
 
-<img src="http://www.forkosh.com/mathtex.cgi? J=\frac{\left \| \overrightarrow{w}^{T}\overrightarrow{\mu _{0}}-\overrightarrow{w}^{T}\overrightarrow{\mu _{1}} \right \|_{2}^{2}}{\overrightarrow{w}^{T}\sum _{0}\overrightarrow{w}+\overrightarrow{w}^{T}\sum _{1}\overrightarrow{w}}">
+<img src="http://www.forkosh.com/mathtex.cgi? J=\frac{\left\|\overrightarrow{w}^{T}\overrightarrow{\mu_{0}}-\overrightarrow{w}^{T}\overrightarrow{\mu_{1}}\right\|_{2}^{2}}{\overrightarrow{w}^{T}\sum _{0}\overrightarrow{w}+\overrightarrow{w}^{T}\sum _{1}\overrightarrow{w}}">
 
 Define within-class and between-class scatter matrix:
 
