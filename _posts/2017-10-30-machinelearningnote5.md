@@ -20,35 +20,28 @@ Decision Tree is a greedy algrithm. The sample space is divided into two parts r
  --Feather Selection
  	Commonly used method : variance, Gini coefficient, entropy
 
-		E.G.
-
-		Entropy is usually used in classification.
-		Suppose that the training set D whose volumn is N has K categories and the volumn of c(k) is |c(k)|. 
-		Feature A can divide set D into N sets(D1,D2....). Di set has Ni elements.
-		Each set(Di) can be divided into K set. The volumn of Dik is Nik
-		The empirical entropy is :
-
-		<img src="http://www.forkosh.com/mathtex.cgi? H(D)=-\sum_{K}^{K=1}\frac{\left | C_{k} \right |}{N}log\frac{\left | C_{k} \right |}{N}">
-
-		The empirical conditional entropy is:
-
-		<img src="http://www.forkosh.com/mathtex.cgi? H(D/A)=\sum \frac{N_{i}}{N}\sum -\left ( \frac{N_{ik}}{N_{i}} \right )log\frac{N_{ik}}{N_{i}} ">
-
-		The information gain can be calculated by:
-
-		<img src="http://www.forkosh.com/mathtex.cgi? g(D,A)=H(D)-H(D/A)">
-
-		The information gain means the decrease of chaos. The more the better.
+E.G.
+	Entropy is usually used in classification.
+	Suppose that the training set D whose volumn is N has K categories and the volumn of c(k) is |c(k)|. 
+	Feature A can divide set D into N sets(D1,D2....). Di set has Ni elements.
+	Each set(Di) can be divided into K set. The volumn of Dik is Nik
+	The empirical entropy is :
+	<img src="http://www.forkosh.com/mathtex.cgi? H(D)=-\sum_{K}^{K=1}\frac{\left | C_{k} \right |}{N}log\frac{\left | C_{k} \right |}{N}">
+	The empirical conditional entropy is:
+	<img src="http://www.forkosh.com/mathtex.cgi? H(D/A)=\sum \frac{N_{i}}{N}\sum -\left ( \frac{N_{ik}}{N_{i}} \right )log\frac{N_{ik}}{N_{i}} ">
+	The information gain can be calculated by:
+	<img src="http://www.forkosh.com/mathtex.cgi? g(D,A)=H(D)-H(D/A)">
+	The information gain means the decrease of chaos. The more the better.
 
  --Tree Construction
  	Commonly used method : ID3, C4.5
 
- 		E.G.
- 		The ID3 algorithm begins with the original set S as the root node. On each iteration of the algorithm, it iterates through every unused attribute of the set and calculates the entropy H ( S ) (or information gain I G ( S )of that attribute. It then selects the attribute which has the smallest entropy (or largest information gain) value. The set S is then split by the selected attribute (e.g. age is less than 50, age is between 50 and 100, age is greater than 100) to produce subsets of the data. The algorithm continues to recurse on each subset, considering only attributes never selected before.
- 		--Calculate the entropy of every attribute using the data set S {\displaystyle S} S
- 		--Split the set S  into subsets using the attribute for which the resulting entropy (after splitting) is minimum (or, equivalently, information gain is maximum)
- 		--Make a decision tree node containing that attribute
- 		--Recurse on subsets using remaining attributes.
+ E.G.
+ 	The ID3 algorithm begins with the original set S as the root node. On each iteration of the algorithm, it iterates through every unused attribute of the set and calculates the entropy H ( S ) (or information gain I G ( S )of that attribute. It then selects the attribute which has the smallest entropy (or largest information gain) value. The set S is then split by the selected attribute (e.g. age is less than 50, age is between 50 and 100, age is greater than 100) to produce subsets of the data. The algorithm continues to recurse on each subset, considering only attributes never selected before.
+ 	--Calculate the entropy of every attribute using the data set S {\displaystyle S} S
+ 	--Split the set S  into subsets using the attribute for which the resulting entropy (after splitting) is minimum (or, equivalently, information gain is maximum)
+ 	--Make a decision tree node containing that attribute
+ 	--Recurse on subsets using remaining attributes.
 
  --Pruning Tree
  	In order to reduce overfitting, prning tree is necessary. Loss function is always used to balance the fitting degree.
