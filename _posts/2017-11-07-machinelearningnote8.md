@@ -229,6 +229,7 @@ def plot_lle(*data):
     plt.show()
 ```
 
-It is a good algrithm. The results have low errors.
 
 ![result](http://oybqmhgid.bkt.clouddn.com/Figure_8_5.png)
+
+It is a good algrithm. The results have low errors.
