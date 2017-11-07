@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine Learning Note(7)
-date: 2017-11-11
+date: 2017-11-01
 categories: blog
 tags: [note]
 description: Machine Learning
