@@ -3,7 +3,6 @@ layout: post
 title: Machine Learning Note(8)
 date: 2017-11-07
 categories: blog
-tags: [note]
 description: Machine Learning
 ---
 
