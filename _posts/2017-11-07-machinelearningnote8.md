@@ -24,7 +24,7 @@ This is my favorite algrithm. The main linear technique for dimensionality reduc
 Today, I use some methods to analyse the iris data.
 
 
-# PCA
+## PCA
 
 ```
 import numpy as np
@@ -82,7 +82,7 @@ The result shows in the picture:
 
 ![result](http://oybqmhgid.bkt.clouddn.com/Figure_8_1.png)
 
-# KPCA
+## KPCA
 
 ```
 def test_Kpca(*data):
@@ -128,7 +128,7 @@ Different kernel make different result.
 
 ![result](http://oybqmhgid.bkt.clouddn.com/Figure_8_2.png)
 
-# MDS
+## MDS
 
 ```
 def test_mds(*data):
@@ -174,7 +174,7 @@ The result is ：
 
 ![result](http://oybqmhgid.bkt.clouddn.com/Figure_8_3.png)
 
-# ISOMAP
+## ISOMAP
 
 ```
 def plot_isomap(*data):
@@ -204,7 +204,7 @@ The performance looks like kpca.
 ![result](http://oybqmhgid.bkt.clouddn.com/Figure_8_4.png)
 
 
-# LLE
+## LLE
 
 ```
 def plot_lle(*data):
