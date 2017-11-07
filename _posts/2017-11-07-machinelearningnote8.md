@@ -3,6 +3,7 @@ layout: post
 title: Machine Learning Note(8)
 date: 2017-11-07
 categories: blog
+tags: [note]
 description: Machine Learning
 ---
 
@@ -118,7 +119,7 @@ def plot_kPCA(*data):
         ax.set_yticks([])
         ax.set_ylabel("x[1]")
         ax.legend(loc="best")
-        ax.set_title(r"$(%s(x\cdot z+1)+%s)^{%s}$" % (gamma, r, p))
+        ax.set_title(r"$(%s(x\cdot z+1)+%s)^%s$" % (gamma, r, p))
     plt.suptitle("kpca-poly")
     plt.show()
 ```
