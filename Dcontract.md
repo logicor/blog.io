@@ -7,4 +7,4 @@ header-img: "img/semantic.jpg"
 
 # E-mail
 
-- logicor@stu.xjtu.edu.cn
+nanjiang@mines.edu

@@ -4,24 +4,18 @@ header-img: "img/green.jpg"
 tagline: "cn"  
 description: "NanJ"  
 baseurl: ""
-url: "https://jnlogicor.com"  
 
 # About/contact
 owner: 
   name: " jn"
-  email: logicor@stu.xjtu.edu.com
+  email: nanjiang@mines.edu
   bio: "..."
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
-douban_username:  
-twitter_username: 
-github_username: 
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+
 
 # Build settings  
 # use Github Flavored Markdown !important  
