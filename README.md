@@ -1,6 +1,0 @@
-##introduction
-
-JN's blog
-
-
-
